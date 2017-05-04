@@ -40,9 +40,16 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="BYo-dE-SJh">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="jUx-Zi-sGg"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="jUx-Zi-sGg">
+                            <connections>
+                                <action selector="addName:" destination="BYZ-38-t0r" id="hGP-c1-Ebl"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="v9o-gy-1QF" id="xHC-AV-aan"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
