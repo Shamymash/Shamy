@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					FA7B39111EBB84DC000A73B2 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SEEWXB7T4P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -266,7 +267,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SEEWXB7T4P;
 				INFOPLIST_FILE = Shamy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.class.Shamy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,7 +281,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SEEWXB7T4P;
 				INFOPLIST_FILE = Shamy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.class.Shamy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
